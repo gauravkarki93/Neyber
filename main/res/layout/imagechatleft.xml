@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:id="@+id/singleMessageContainer"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="left"
+        >
+
+        <RelativeLayout
+            android:id="@+id/messageBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/chatleft"
+            android:padding="4dp"
+            >
+
+            <TextView
+                android:id="@+id/senderName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SenderName"
+                android:layout_alignParentTop="true"
+                android:textColor="@android:color/primary_text_light"
+                android:layout_marginTop="4dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="4dp"
+
+                />
+
+            <ImageButton
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:id="@+id/attachment"
+                android:src="@drawable/profile_image"
+                android:scaleType="centerCrop"
+                android:layout_below="@id/senderName"
+                android:layout_centerInParent="true"
+                />
+
+
+            <ImageView
+                android:id="@+id/statusImage"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/logo"
+                tools:ignore="RtlCompat"
+                android:padding="1dp"
+                android:layout_below="@+id/attachment"
+                android:layout_toRightOf="@+id/attachment"
+                android:layout_toEndOf="@+id/attachment" />
+        </RelativeLayout>
+
+    </LinearLayout>
+</LinearLayout>

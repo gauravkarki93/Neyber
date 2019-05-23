@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Neyber</string>
+    <string name="search_result">Search result</string>
+    <string name="action_settings">Settings</string>
+    <string name="chat_section_text">Chat Section</string>
+    <string name="QA_section_text">Q/A Section</string>
+    <string name="hello_world">Hello world!</string>
+
+    <!-- Names -->
+    <string-array name="Member_names">
+        <item>Pavan D</item>
+        <item>DayaSagar</item>
+        <item>Pavan B</item>
+        <item>Maddy</item>
+        <item>Pavan H</item>
+        <item>Nikhil</item>
+    </string-array>
+
+    <!-- Pictures -->
+    <array name="profile_pics">
+        <item>@drawable/images</item>
+        <item>@drawable/images2</item>
+        <item>@drawable/images3</item>
+        <item>@drawable/index</item>
+        <item>@drawable/index2</item>
+        <item>@drawable/index3</item>
+    </array>
+
+    <!-- Status -->
+    <string-array name="statues">
+        <item>Blogging</item>
+        <item>Available</item>
+        <item>Busy</item>
+        <item>In a meeting</item>
+        <item>At work</item>
+        <item>At gym</item>
+    </string-array>
+
+    <!-- contact type -->
+    <string-array name="contactType">
+        <item>Mobile</item>
+        <item>Work</item>
+        <item>Home</item>
+        <item>Work</item>
+        <item>Mobile</item>
+        <item>Mobile</item>
+    </string-array>
+    <string-array name="fontsize">
+        <item name="1">Small</item>
+        <item name="2">Medium</item>
+        <item name="3">Large</item>
+    </string-array>
+
+
+    <string-array name="fontsizeValues">
+        <item name="1">1</item>
+        <item name="2">2</item>
+        <item name="3">3</item>
+    </string-array>
+
+
+    <string-array name="search">
+        <item name="1">Internet(Default)</item>
+        <item name="2">Phone</item>
+        <item name="3">Both</item>
+    </string-array>
+
+
+    <string-array name="searchValues">
+        <item name="1">1</item>
+        <item name="2">2</item>
+        <item name="3">3</item>
+    </string-array>
+
+    <string name="cancelled">Cancelled</string>
+    <string name="permission_not_granted">Unable to perform selected action because permissions were not granted.</string>
+    <string name="ok">OK</string>
+    <string name="hello_user">Hello %1$s!</string>
+    <string name="success">Success</string>
+    <string name="successfully_posted_post">Post ID: %1$s</string>
+    <string name="error">Error</string>
+    <string name="status_update">Updating stat for %1$s at %2$s</string>
+    <string name="photo_post">Photo Post</string>
+    <string name="you_picked">You picked:</string>
+    <string name="no_friends_selected">&lt;No friends selected&gt;</string>
+    <string name="no_place_selected">&lt;No place selected&gt;</string>
+    <string name="pick_seattle_place">Pick a Seattle Place</string>
+    <string name="exception">Exception: %1$s</string>
+    <string name="title_activity_create_group">Create new group</string>
+    <string name="title_activity_create_question">Create question</string>
+    <string name="title_activity_group_details">Group Details</string>
+    <string name="title_activity_main_activity2">Settings</string>
+    <string name="parentURI">http://e364bd9d.ngrok.io/clubsapp1/webapi</string>
+    <!--<string name="parentURI">http://infra-bedrock-101708.appspot.com/resources</string>-->
+    <string name="title_activity_profile_details">ProfileDetails</string>
+    <string name="facebook_app_name">HelloFBSample</string>
+    <string name="app_id">1472552556399723</string>
+    <string name="gcm_send_message">Token retrieved and sent to server! You can now use gcmsender to
+        send downstream messages to this app.</string>
+    <string name="registering_message">Generating InstanceID token...</string>
+    <string name="token_error_message">An error occurred while either fetching the InstanceID token,
+        sending the fetched token to the server or subscribing to the PubSub topic. Please try
+        running the sample again.</string>
+    <string name = "gcm_defaultSenderId">663954925967</string>
+    <string name="title_activity_base">BaseActivity</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="title_activity_answers">Answers</string>
+    <string name="title_activity_add_answer">Add Answer</string>
+    <string name="title_activity_my_profile">My Profile</string>
+    <string name="title_activity_edit_profile">Edit Profile</string>
+    <string name="title_activity_edit_group">Edit Group</string>
+    <string name="title_activity_group_category">Select a Category</string>
+
+
+</resources>

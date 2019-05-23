@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<!-- Search / will display always -->
+    <item
+        android:id="@+id/action_search"
+        android:icon="@drawable/ic_search_white_24dp"
+        android:title="Search"
+        android:showAsAction="always"
+        android:actionViewClass="android.widget.SearchView"/>
+    <item
+        android:id="@+id/action_add"
+        android:icon="@drawable/ic_add_white_24dp"
+        android:title="Create Group"
+        android:showAsAction="always"/>
+    <item
+        android:id="@+id/action_filter"
+        android:title="Filter Search"
+        android:showAsAction="collapseActionView"
+        android:visible="false"/>
+</menu>

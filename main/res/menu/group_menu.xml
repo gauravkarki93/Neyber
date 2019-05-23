@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Search / will display always -->
+    <item android:id="@+id/action_search"
+        android:icon="@drawable/ic_search_white_24dp"
+        android:title="Search"
+        android:showAsAction="ifRoom"
+        android:actionViewClass="android.widget.SearchView"/>
+    <item android:id="@+id/action_newQues"
+        android:icon="@drawable/ic_add_white_24dp"
+        android:title="Create Question"
+        android:showAsAction="ifRoom"
+        android:visible="false"/>
+    <item android:id="@+id/action_attach"
+        android:icon="@drawable/ic_attach_file_white_24dp"
+        android:title="Add Attachment"
+        android:showAsAction="ifRoom"
+        android:visible="false"/>
+    <item android:id="@+id/details"
+        android:visible="true"
+        android:showAsAction="always"
+        android:icon="@drawable/ic_done_white_24dp"
+        android:title="Details"></item>
+
+</menu>

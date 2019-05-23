@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    >
+
+    <LinearLayout
+        android:id="@+id/singleMessageContainer"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:id="@+id/messageBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:background="@drawable/chatright"
+            >
+
+            <TextView
+                android:id="@+id/senderName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SenderName"
+                android:layout_alignParentTop="true"
+                android:textColor="@android:color/primary_text_light" />
+
+            <TextView
+                android:id="@+id/message"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:autoLink="web"
+                android:linksClickable="true"
+                android:layout_below="@id/senderName"
+                android:text="Message asdasdasdasdasdasdaasdasdasdadadasdasdasdasdasdasda"
+                android:textColor="@android:color/primary_text_light" />
+
+            <ImageView
+                android:id="@+id/statusImage"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/logo"
+                tools:ignore="RtlCompat"
+                android:layout_centerVertical="true"
+                android:layout_alignRight="@+id/senderName"
+                android:layout_alignEnd="@+id/senderName" />
+        </RelativeLayout>
+
+</LinearLayout>
+</LinearLayout>

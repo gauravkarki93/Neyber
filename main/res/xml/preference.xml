@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceScreen android:title="Notifications">
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="vibrate"
+            android:summary="Vibrate the device when new message arrives"
+            android:title="Vibrate" />
+        <RingtonePreference
+            android:key="notif_tone"
+            android:ringtoneType="notification"
+            android:title="Notification tone" />
+    </PreferenceScreen>
+
+    <Preference android:title="Profile">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetClass="com.clubin.neyber.MyProfile"
+            android:targetPackage="com.clubin.neyber" />
+    </Preference>
+
+    <PreferenceScreen android:title="Chat settings">
+        <ListPreference
+            android:entries="@array/fontsize"
+            android:entryValues="@array/fontsizeValues"
+            android:key="font"
+            android:summary="Font size in chat screen"
+            android:title="Font size" />
+        <Preference android:title="Wallpaper" />
+        <Preference android:title="Delete all chats" />
+    </PreferenceScreen>
+
+    <PreferenceScreen android:title="Locations">
+        <ListPreference
+            android:entries="@array/search"
+            android:entryValues="@array/searchValues"
+            android:summary="Search groups using Internet"
+            android:title="Search" />
+
+
+    </PreferenceScreen>
+</PreferenceScreen>

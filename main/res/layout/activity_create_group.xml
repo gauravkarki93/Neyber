@@ -1,0 +1,114 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context="com.example.android.listview.CreateGroupActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="@dimen/activity_horizontal_margin">
+
+        <ImageButton
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/group_image"
+            android:src="@drawable/ic_group_black_24dp"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@android:color/white"
+            android:scaleType="centerCrop"/>
+
+
+
+        <EditText
+            android:id="@+id/group_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edit_text"
+            android:padding="8dp"
+            android:layout_marginTop="32dp"
+            android:hint="Group Name"
+            />
+
+
+
+        <EditText  android:background="@drawable/edit_text"
+            android:padding="8dp"
+            android:layout_marginTop="32dp"
+            android:id="@+id/category_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Category"
+            android:visibility="gone"
+            />
+
+
+
+        <EditText  android:background="@drawable/edit_text"
+            android:padding="8dp"
+            android:layout_marginTop="32dp"
+            android:id="@+id/desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Description"
+            />
+
+
+
+        <EditText  android:background="@drawable/edit_text"
+            android:padding="8dp"
+            android:layout_marginTop="32dp"
+            android:hint="Establishment"
+            android:id="@+id/establishment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioGroup
+                android:layout_marginTop="24dp"
+                android:id="@+id/rGroup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/selLocation"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:text="Select location" />
+
+                <AutoCompleteTextView
+                    android:background="@drawable/edit_text"
+                    android:padding="8dp"
+                    android:layout_marginTop="16dp"
+                    android:id="@+id/selectedLocation"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/rGroup" />
+
+                <RadioButton
+                    android:id="@+id/myLocation"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Set my location as Group location"
+                    android:layout_marginTop="24dp" />
+            </RadioGroup>
+
+            <ImageButton
+                android:layout_marginTop="24dp"
+                android:id="@+id/mapicon"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_alignParentRight="true"
+                android:padding="5dp"
+                android:src="@drawable/mapicon"
+                android:divider="@android:color/white"
+                android:background="@android:color/white"
+                android:scaleType="centerCrop"/>
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>
